@@ -12,10 +12,7 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    /* Google Analytics */
     gtag('config', 'G-RQ0SJF8650');
-
-    /* Google Ads BASE (replace with your Ads ID if different) */
     gtag('config', 'AW-1234567890');
   </script>
 </head>
@@ -40,7 +37,7 @@
 
   <!-- CTA BUTTON -->
   <div style="margin:30px 0;">
-    <a href="https:nordiciptv8k.com"
+    <a href="https://nordiciptv8k.com"
        target="_blank"
        rel="noopener noreferrer"
        style="display:inline-block;padding:16px 36px;
@@ -59,18 +56,38 @@
 
 </section>
 
-<!-- Google tag (gtag.js) event -->
-<script>
-  gtag('event', 'ads_conversion_page_view', {
-    // <event_parameters>
-  });
-</script>
+<!-- WHATSAPP FLOATING BUTTON -->
+<a href="https://wa.me/212631347248?text=Hej%20jag%20vill%20ha%20mer%20information%20om%20TV-guide"
+   target="_blank"
+   rel="noopener noreferrer"
+   style="
+     position:fixed;
+     bottom:20px;
+     right:20px;
+     background:#25D366;
+     color:#ffffff;
+     padding:14px 18px;
+     border-radius:50px;
+     font-family:Arial,sans-serif;
+     font-size:16px;
+     font-weight:600;
+     text-decoration:none;
+     box-shadow:0 4px 10px rgba(0,0,0,0.25);
+     z-index:9999;
+   ">
+  💬 WhatsApp
+</a>
 
+<!-- Google Ads conversion event (page view) -->
+<script>
+  gtag('event', 'conversion', {
+    'send_to': 'AW-1234567890/page_view'
   });
 </script>
 
 </body>
 </html>
+
 
 
 
